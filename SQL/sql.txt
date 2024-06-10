@@ -1,0 +1,20 @@
+/*SELECT nombre, edad FROM `cantante` 
+WHERE edad > 20 AND edad < 60
+ORDER BY edad;*/
+
+-- WHERE edad BETWEEN 20 AND 60
+
+-- comentario
+
+# otro comentario
+
+-- SELECT * from cantante;
+
+-- average, media AVG(edad)
+-- SUM(edad) la suma total
+-- COUNT(*) cuantos hay
+-- NOT para negar, ej NOT LIKE "%a"
+-- <> diferente. Equivalente a !=
+-- AS para renombrar columna
+
+SELECT AVG(edad) AS "Media Edad" FROM `cantante`
